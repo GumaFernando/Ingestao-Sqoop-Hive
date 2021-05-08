@@ -1,0 +1,18 @@
+
+## SQOOP - importando os dados do Banco de dados Employees - Tabela - Employees, diretamente para o Hive.
+Armazenando os dados no hdfs, no formato Parquet, com paralelismo -m 2.
+
+
+
+
+
+sqoop import --table employees \
+--connect jdbc:mysql://database/employees \
+--username root \
+--password secret \
+--as-parquetfile \
+-m 2 \
+--hive-import \
+--hive-database guma \
+--hive-table employees \
+
