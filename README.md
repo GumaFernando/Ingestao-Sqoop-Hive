@@ -1,1 +1,1 @@
-# Projeto_Ingestao_Sqoop
+# Ingestão de dados no hive utilizando o Scoop
