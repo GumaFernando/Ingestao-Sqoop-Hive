@@ -18,6 +18,10 @@ Criação de um banco de dados chamado "Guma" no Hive.
 ### Importando os dados do Mysql diretamente no HIVE
 
 Fazendo a importação de uma tabela do banco de dados do Mysql, diretamente para o Hive.
+- Salvando no formato Parquet
+- usando Paralelismo para 2
+- importando diretamente no banco de dados hive chamado "Guma"
+- Criando uma tabela chamada Employees
 
 ![alt text](https://github.com/GumaFernando/Projeto_Ingestao_Sqoop/blob/main/sqoop_import.PNG)
 
@@ -30,5 +34,6 @@ Realizando a validação de importação no Hive, realizando a contagem geral do
 ### Verificando arquivos no formato Parquet no hdfs 
 
 Realizando a consulta diretamente no HDFS para verificação do formato do arquivo, neste caso foi validado armazenamento no formato Parquet.
+dentro do caminho padrão /user/hive/warehouse
 
 ![alt text](https://github.com/GumaFernando/Projeto_Ingestao_Sqoop/blob/main/consulta_hdfs.PNG)
